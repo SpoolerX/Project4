@@ -1,0 +1,120 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #2c2c54;
+  font-size: 16px;
+  line-height: 1.7;
+  /*Interlinia*/
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*Centrowanie w poziomie razemz  max width*/
+  padding: 0 20px;
+}
+
+section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.top {
+  background-image: url("/images/backgroung.jpeg");
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  min-width: 260px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn-one {
+  border-color: #fed136;
+  color: #ffffff;
+  background-color: #fed136;
+  font-weight: 600;
+}
+
+/* Navigation */
+.navigation {
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  position: relative;
+  margin-right: 36px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Logo*/
+.logo {
+  color: #fed136;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/*Splash*/
+.splash {
+  color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 600px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-title {
+  padding-top: 24px;
+  margin: auto 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-size: 60px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
