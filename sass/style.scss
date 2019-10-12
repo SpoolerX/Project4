@@ -33,6 +33,7 @@ section {
 
 .top {
     background-image: url("/images/backgroung.jpeg");
+    background-size:cover;
 }
 .btn {
     display: inline-block;
@@ -115,3 +116,48 @@ section {
     font-weight: 600;
 }
 
+/*Service*/
+.services {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-title {
+    position: relative;
+    font-size: 48px;
+    margin: 0 0 72px 0;    
+
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box-services {
+    flex: 0 0 33.333%;
+    
+}
+.box-subtitle {
+    font-size: 24px;
+    margin: 0 0 12px 0;
+    font-weight: bold;
+    
+}
+
+
+.box-services i {
+    position: relative;
+    font-size: 30px;
+    color:$text-light;
+    background: $color-three;    
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
