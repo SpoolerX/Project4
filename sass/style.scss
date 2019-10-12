@@ -26,8 +26,7 @@ body {
     padding: 0 20px;
 }
 section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 76px;
 }
 
 
@@ -61,7 +60,6 @@ section {
 }
 /* Navigation */
 .navigation {
-    padding-top: 24px;
     padding-bottom: 12px;
 }
 .navigation ul {
@@ -102,7 +100,6 @@ section {
     max-width: 70%;
 }
 .page-title {
-    padding-top: 24px;;
     margin: auto 0;
     font-size: 24px;
     font-weight: 400;
@@ -126,8 +123,11 @@ section {
 .section-title {
     position: relative;
     font-size: 48px;
-    margin: 0 0 72px 0;    
-
+    margin: auto 0px;    
+}
+.section-subtitle{
+    font-size: 14px;
+    margin: 0 0 72px 0;
 }
 .boxes {
     display: flex;
@@ -144,11 +144,8 @@ section {
     font-size: 24px;
     margin: 0 0 12px 0;
     font-weight: bold;
-    
-}
-
-
-.box-services i {
+ }
+ .box-services i {
     position: relative;
     font-size: 30px;
     color:$text-light;
