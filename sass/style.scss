@@ -44,6 +44,7 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 24px;
 }
 
 .top {
@@ -134,7 +135,9 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: white;
 }
+
 
 .box-subtitle {
     font-size: 24px;
@@ -145,7 +148,7 @@ section {
     position: relative;
     font-size: 30px;
     color:$text-light;
-    background: $color-three;    
+    background: #fed136;    
     width: 60px;
     height: 60px;
     line-height: 65px;
@@ -156,6 +159,11 @@ section {
 }
 
 /*Portfolio*/
+.portfolio{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .box-portfolio {
     flex: 0 0 33.333%;
@@ -186,4 +194,14 @@ section {
 }
 .card-subtitle {
     font-style: italic;
+}
+/*footer*/
+.page-footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    min-height: 80px;
+    padding-top: 20px;
+    font-size: 24px;
 }

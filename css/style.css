@@ -46,6 +46,7 @@ section {
   -ms-flex-pack: center;
       justify-content: center;
   text-align: center;
+  padding-bottom: 24px;
 }
 
 .top {
@@ -147,6 +148,7 @@ section {
   -ms-flex-pack: center;
       justify-content: center;
   text-align: center;
+  background: white;
 }
 
 .box-subtitle {
@@ -159,7 +161,7 @@ section {
   position: relative;
   font-size: 30px;
   color: #ffffff;
-  background: #ff5252;
+  background: #fed136;
   width: 60px;
   height: 60px;
   line-height: 65px;
@@ -170,6 +172,14 @@ section {
 }
 
 /*Portfolio*/
+.portfolio {
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+}
+
 .box-portfolio {
   -ms-flex: 0 0 33.333%;
       flex: 0 0 33.333%;
@@ -204,5 +214,18 @@ section {
 
 .card-subtitle {
   font-style: italic;
+}
+
+/*footer*/
+.page-footer {
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  background: white;
+  min-height: 80px;
+  padding-top: 20px;
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */
